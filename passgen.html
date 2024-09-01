@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passgen</title>
+    <link rel="stylesheet" href="passgen.css">
+</head>
+<body>
+    <div id="baap">
+        <div id="wrapper">
+            <div id="h1"><h1><u>PASSWORD GENERATOR</u></h1></div>
+            <div id="sbox">
+                <input type="text" placeholder="password" id="m"   class="x">
+                <button class="x" id="n"><img  class="y"  src="https://tse1.mm.bing.net/th?id=OIP.pNnQU8S7KlKCxG08GzPLXgHaHa&pid=Api&P=0&h=180" width="10px" height="10px"></button>
+            </div>
+            <div id="tbox">
+                <div id="passlen"><p><b>Password Length</b></p><p><b>0</b></p>
+                </div>
+                <input type="range" min="0" max="15" id="slider">
+                <br>
+                
+                <div id="cbox">
+                    <div>
+                    <input type="checkbox" id="c1" >
+                    <label for="c1">Include Uppercase Letters</label>
+                    <br/>
+                </div>
+                <div>
+                    <input type="checkbox" id="c2">
+                    <label for="c2">Include Lowercase Letters</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="c3">
+                    <label for="c3">Includes Numbers</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="c4">
+                    <label for="c4">Includes Symbols</label>
+                </div>
+                </div>
+                <div id="strength">
+                    <p id="manus" >Strength</p>
+                    <div id="dot"></div>
+                </div>
+                    <button id="passbutt">Generate Password</button>
+                
+            </div>
+        </div>
+    </div>
+    <script src="passgen.js"></script>
+</body>
+</html>
